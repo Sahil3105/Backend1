@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/blog-app-apis-0.0.1-SNAPSHOT.jar blog-app-apis.jar
 
 # Expose the port that the backend runs on (port 9092 in your case)
-EXPOSE 9092
+EXPOSE 8081
 
 # Command to run the backend when the container starts
 CMD ["java", "-jar", "blog-app-apis.jar"]
