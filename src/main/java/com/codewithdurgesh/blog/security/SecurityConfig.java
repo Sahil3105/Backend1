@@ -34,7 +34,7 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
         
         // Explicitly allow the frontend origin
-        configuration.setAllowedOrigins(List.of("http://54.242.118.39:3000"));
+        configuration.setAllowedOrigins(List.of("http://23.22.237.221:3000"));
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(List.of("*"));
         configuration.setAllowCredentials(true); // Allow credentials
