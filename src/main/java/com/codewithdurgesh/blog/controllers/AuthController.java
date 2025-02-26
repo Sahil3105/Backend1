@@ -33,7 +33,7 @@ import com.codewithdurgesh.blog.services.UserService;
 
 @RestController
 @RequestMapping("/api/v1/auth/")
-@CrossOrigin(origins = "http://18.208.211.74:3000", allowCredentials = "true")
+@CrossOrigin(origins = "http://34.228.157.161:3000", allowCredentials = "true")
 public class AuthController {
 
     private static final Logger logger = LoggerFactory.getLogger(AuthController.class);
